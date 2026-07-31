@@ -14,7 +14,6 @@ venv/
 .vscode/
 
 # Data artifacts (regenerable via pipeline — keep repo lean)
-data/raw_pdfs/
 data/extracted_text/
 data/chunks.json
 data/chroma_db/

@@ -60,6 +60,7 @@ Project01/
 
 ## Running locally
 
+Place your source PDFs in data/raw_pdfs/ (9 sample astrophysics papers are included) before running the ingestion pipeline
 ```bash
 pip install -r requirements.txt
 
