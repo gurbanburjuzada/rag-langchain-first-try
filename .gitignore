@@ -1,0 +1,24 @@
+# Secrets — never commit
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+
+# Data artifacts (regenerable via pipeline — keep repo lean)
+data/raw_pdfs/
+data/extracted_text/
+data/chunks.json
+data/chroma_db/
+
+# OS junk
+.DS_Store
+Thumbs.db
